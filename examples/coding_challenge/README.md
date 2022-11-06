@@ -41,6 +41,7 @@
 
 ### Simulation
 - the initial state of the Cart-Pole is chosen to be (0.2, 0.2, 0.0, 0.0) at t = 0
+- the target state is the quiescent state at the origin (0.0, 0.0, 0.0, 0.0), which is unstable equilibrium.
 - simulated up to t = 10 sec
 
 ### Simulation results
