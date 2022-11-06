@@ -39,6 +39,10 @@
     - `jupyter notebook`
 - open the notebook and run `cartpole_balancing_inverse_dynamics.ipynb`
 
+### Simulation
+- the initial state of the Cart-Pole is chosen to be (0.2, 0.2, 0.0, 0.0) at t = 0
+- simulated up to t = 10 sec
+
 ### Simulation results
 - trajectories in the phase space
 ![](./Media/cartpole_trajectories.png)
