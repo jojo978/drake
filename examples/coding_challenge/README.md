@@ -30,8 +30,8 @@
    - for realtime visualization and recordings
 
 ### Visualization
-- Meshcat for visualization and recording
-- a snapshot below is taken at t = 10 sec
+- Meshcat for realtime visualization and recording
+- a snapshot below is taken at t = 10 sec, when the system is almost stabilized.
 ![](./Media/meshcat.png)
 
 ### Run
@@ -45,6 +45,8 @@
 - simulated up to t = 10 sec
 
 ### Simulation results
-- trajectories in the phase space
+- for this particular initial state and PID parameters, the simulation shows a stabilizing behavior
+- trajectories in the phase space<br/>
 ![](./Media/cartpole_trajectories.png)
-- ![](./Media/cartpole.gif)
+- video recoding from 0 sec to 10 sec<br/>
+![](./Media/cartpole.gif)
