@@ -24,6 +24,8 @@
     - `pydrake.systems.controllers.InverseDynamicsController`
     - PID parameters are tune by some trial and error
         - but I'm not sure if these parameters are optimal in some sense.
+        - two actuators has limited output but controller doesn't take this limit into account
+          - you might see quite unexpected behaviors
 3. `LogVectorOutput` for plotting
    - two phase space plots are generated
 4. `SceneGraph` and two visualizers
@@ -41,7 +43,7 @@
 
 ### Simulation
 - the initial state of the Cart-Pole is chosen to be (0.2, 0.2, 0.0, 0.0) at t = 0
-- the target state is the quiescent state at the origin (0.0, 0.0, 0.0, 0.0), which is unstable equilibrium.
+- the target state is the quiescent state at the origin (0.0, 0.0, 0.0, 0.0), which is a unstable equilibrium.
 - simulated up to t = 10 sec
 
 ### Simulation results
